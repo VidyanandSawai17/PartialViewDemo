@@ -1,0 +1,7 @@
+﻿@model IEnumerable<PartialViewDemo.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Product List</h1>
+@Html.Partial("_ProductList",Model)
